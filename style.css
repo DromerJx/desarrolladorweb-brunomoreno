@@ -64,9 +64,7 @@ h1 {
     width: 100%;
     height: 4rem;
     display: grid;
-    border: 1px white solid;
     border-radius: 2rem;
-    place-items: center;
 }
 h2 {
     font-size: 2rem;
@@ -81,7 +79,8 @@ h2 {
     width: 25vw;
     height: auto;
     object-fit: cover;
-    border-radius: 10em 1em 10em 1em;
+    border-radius: 4px;
+    box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.3);
 }
 .subcont-bruno-bottom {
     width: 100%;
@@ -492,9 +491,8 @@ a {
         /* width: 100%; */
         height: 3rem;
         /* display: grid; */
-        border: 2px white solid;
         /* border-radius: 2rem; */
-        /* place-items: center; */
+        place-items: center;
     }
     h2 {
         font-size: 1.5rem;
@@ -509,9 +507,12 @@ a {
     }
     .subcont-bruno-top-right img {
         width: 50vw;
+        height: 50vw;
+        object-fit: cover;
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
         /* height: auto; */
         /* object-fit: cover; */
-        /* border-radius: 70% 35% 70% 35%; */
+        border-radius: 50%;
     }
     /* .subcont-bruno-bottom {
         width: 100%;
