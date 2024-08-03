@@ -349,10 +349,10 @@ h2 {
 .formulario-card {
     max-width: 100%;
     width: 25rem;
-    height: 40rem;
+    height: fit-content;
     display: grid;
     place-items: center;
-    background-color: #272727;
+    background-color: #a6aec1;
     border-radius: 1rem;
     padding: 2rem;
 }
@@ -387,7 +387,7 @@ textarea {
     padding: 1rem;
 }
 .main-button {
-    background-color: rgb(72, 72, 150);
+    background-color: #6c788e;
     font-size: 1.3rem;
     font-family: var(--font2);
     color: white;
@@ -395,7 +395,7 @@ textarea {
 }
 .main-button:hover {
     cursor: pointer;
-    background-color: rgb(76, 76, 230);
+    background-color: rgb(133, 152, 196);
 }
 .titulo-formulario {
     margin-bottom: 3rem;
