@@ -49,13 +49,13 @@ nav {
     display: grid;
     place-items: center;
 }
-ul {
+.nav-links {
     width: fit-content;
     height: auto;
     display: flex;
     gap: 3rem;
 }
-li {
+.nav-link {
     font-size: 1.225rem;
     font-family: var(--font2);
     font-weight: 600;
