@@ -489,15 +489,24 @@ a {
 
     header {
         width: 100%;
-        height: 3rem;
+        height: fit-content;
         /* display: flex; */
         justify-content: space-between;
+        align-items: center;
         /* background-color: var(--color-bento-box); */
         padding: 0 1rem;
         margin-top: 0;
         border-radius: 0 0 .5rem .5rem;
         border-bottom: 2px solid var(--color01);
         /* box-shadow: 0px 1px 20px 1px #cfd5e1; */
+    }
+    .nav-links {
+        /* width: fit-content; */
+        /* height: auto; */
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: end;
     }
     /* .logo-pagina {
         width: auto;

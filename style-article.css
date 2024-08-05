@@ -182,3 +182,7 @@ flex-direction: column;
     margin-left: 2rem;
     list-style-type:decimal;
 }
+
+.que-para-desarollador-web {
+    display: none;
+}
