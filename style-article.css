@@ -170,3 +170,15 @@ p {
     max-height: 20vw;
     box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.3);
 }
+.lista-seo {
+display: flex;
+flex-direction: column;
+}
+.lista-seo p {
+    margin-left: 2rem;
+}
+.elemento-seo {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    list-style-type:decimal;
+}
