@@ -346,6 +346,7 @@ h2 {
     line-height: 1.325rem;
     font-family: var(--font2);
     font-weight: 400;
+    color: var(--color01);
 }
 .linea-mi-trabajo {
     width: 50%;
@@ -381,6 +382,7 @@ h2 {
     font-size: 1rem;
     font-family: var(--font2);
     font-weight: 400;
+    color: var(--color01);
 }
 
     /* Pagina formulario email */
@@ -872,7 +874,7 @@ a {
     }
     
     .bento-meta {
-        height: 30vh;
+        height: fit-content;
         grid-column: none;
         grid-row: none;
         /* display: flex; */
@@ -882,6 +884,7 @@ a {
     }
     .bento-meta p{
         font-size: 1rem;
+        margin-bottom: 2rem;
         /* font-family: var(--font2);
         font-weight: 400; */
     }
