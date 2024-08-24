@@ -1,6 +1,7 @@
 :root {
     --font1: 'Bebas Neue', sans-serif;
     --font2: 'ruda', sans-serif;
+    --color00: #ff005d;
     --color01: #6c788e;
     --color02: #a6aec1;
     --color-bento-box: #e4e5eb;
@@ -43,25 +44,67 @@ header {
     width: auto;
     height: 4rem;
 }
+
+
+
+
+
+
 nav {
     width: fit-content;
     height: 100%;
     display: grid;
-    place-items: center;
 }
 .nav-links {
     width: fit-content;
-    height: auto;
+    height: 100%;
     display: flex;
     gap: 3rem;
 }
 .nav-link {
+    height: 100%;
     font-size: 1.225rem;
     font-family: var(--font2);
     font-weight: 600;
     color: #6c788e;
     list-style-type: none;
 }
+.nav-link > a {
+    display: block;
+    align-content: center;
+    width: 100px;
+    height: 100%;
+}
+.nav-link a:hover {
+    cursor: pointer;
+    color: var(--color00);
+}
+.nav-link-articulos {
+    max-width: 10rem;
+    width: 100%;
+    display: none;
+    padding: 1rem 4px;
+    gap: 1rem;
+    background-color: #a6aec174;
+    border-radius: 0 0 .25rem .25rem;
+}
+.nav-link:hover > .nav-link-articulos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 main {
     max-width: 1440px;
