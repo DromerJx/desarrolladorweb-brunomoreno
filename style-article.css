@@ -263,6 +263,7 @@ flex-direction: column;
     background: var(--color-transparent-bento-box);
     border-radius: 0 10rem 10rem 0;
     padding: 1rem;
+    padding-right: 2rem;
 }
 .caracteristica-1-contenido {
     width: auto;
