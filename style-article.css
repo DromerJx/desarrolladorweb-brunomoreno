@@ -296,6 +296,23 @@ flex-direction: column;
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
+.elemento-lista-var-1-articulo {
+    gap: 1rem;
+    margin-left: 1rem;
+    list-style-type: decimal;
+}
+.elemento-lista-var-1-articulo p {
+    font-family: var(--font3);
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: .05rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-left: 0;
+}
+.lista-basica-articulo {
+    gap: .5rem;
+}
 
 
 
